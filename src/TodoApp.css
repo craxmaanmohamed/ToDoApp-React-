@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+
+  
+}
+/* h1 titel */
+h1{
+    text-align: center;
+    color: green;
+    margin: 10px;
+}
+.container{
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+}
+.Add_input{
+    display: flex;
+    gap: 10px;
+}
+.Add_input input{
+    height: 35px;
+    width: 590px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding-left: 5px;
+}
+.Add_input button{
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: 25px;
+}
+/* .Add_input button hover */
+.Add_input button:hover{
+    background-color: rgb(7, 96, 7);
+}
+.bodoytodo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height: 45px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: aliceblue;
+}
+.bodoytodo button{
+    height: 30px;
+    padding: 2px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+/* .bodoytodo button Hover */
+.bodoytodo button:hover{
+    background-color: rgb(185, 4, 4);
+}
+.check_p{
+    display: flex;
+    gap: 5px;
+}
+.line-through{
+    text-decoration-color: red;
+    text-decoration: dashed 2px line-through green;
+}
